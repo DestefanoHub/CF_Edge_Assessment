@@ -1,0 +1,19 @@
+Please note to following in regards to the tasks:
+
+1. I ran the tasks via CommandBox's local server as well as a local version of CF2023 that I have installed.
+
+2. I encountered difficulty when attempting to access the database via MS SQL Server. I believe it was an issue with assigning
+a user to the database after importing it. I used a MySQL database instead. I only ran the database tasks in CF2023 as I had
+the datasource defined in the CF administrator.
+
+3. MySQL didn't seem to like the table name 'order', so it is named 'orders' in my code. Please be aware of this before running
+the code.
+
+4. I commented out the entire section of the application.cfc pertaining to the database configuration. Please be aware of this 
+before running the code.
+
+5. In any of the tasks that required modifying existing material (I believe only tasks 9 and 10), I commented near each change
+and indicated what was done, starting with <!---CHANGE .
+
+6. I used a combination of "older" and "newer" approaches. If chosen, I am completely fine with whatever the team's style
+may be.
